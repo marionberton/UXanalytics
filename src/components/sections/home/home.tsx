@@ -1,7 +1,6 @@
 import React from 'react';
 
 import home from '../../../assets/home.png';
-import oval from '../../../assets/oval.svg';
 
 export const Home: React.FC = () => {
   return (
