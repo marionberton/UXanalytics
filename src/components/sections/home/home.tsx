@@ -27,7 +27,7 @@ export const Home: React.FC = () => {
             </button>
           </div>
           <div className="p-2 w-1/2">
-            <img src={home} />
+            <img src={home} alt="" />
           </div>
         </div>
       </div>
