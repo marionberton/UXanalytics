@@ -24,7 +24,7 @@
     "build:css": "postcss src/styles/tailwind.css -o src/styles/output.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css -w",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
-    "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
+    "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
     "isready": "npm run format && npm run lint && npm run test:coverage && npm run build"
   },
   "eslintConfig": {

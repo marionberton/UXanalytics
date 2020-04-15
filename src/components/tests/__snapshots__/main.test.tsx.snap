@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> renders the component 1`] = `
+<section
+  class=" mt-24"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="flex items-center flex-row"
+    >
+      <div
+        class="p-2 w-1/2"
+      >
+        <h1
+          class="text-5xl text-darkgrey font-title font-semibold leading-none "
+        >
+          Stop copying, and
+          <br />
+           start doing competitor 
+          <br />
+           UX analysis
+        </h1>
+        <p
+          class="mt-12 text-darkgrey"
+        >
+          UX Analytic is a platform, build to help designers creating a
+          <br />
+          better web user experience, by analyzing design metrics of
+          <br />
+          your product with your direct competitors.
+        </p>
+        <button
+          class="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full w-1/3 mt-8"
+          type="button"
+        >
+          Try Demo Now
+        </button>
+      </div>
+      <div
+        class="p-2 w-1/2"
+      >
+        <img
+          alt=""
+          src="home.png"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;

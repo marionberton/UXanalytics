@@ -1,7 +1,6 @@
 import React from 'react';
 
 import home from '../../../assets/home.png';
-import oval from '../../../assets/oval.svg';
 
 export const Home: React.FC = () => {
   return (
@@ -20,12 +19,15 @@ export const Home: React.FC = () => {
               <br />
               your product with your direct competitors.
             </p>
-            <button className="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full w-1/3  mt-8">
+            <button
+              className="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full w-1/3 mt-8"
+              type="button"
+            >
               Try Demo Now
             </button>
           </div>
           <div className="p-2 w-1/2">
-            <img src={home} />
+            <img src={home} alt="" />
           </div>
         </div>
       </div>
