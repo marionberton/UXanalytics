@@ -7,9 +7,9 @@ import './styles/tailwind.css';
 
 export const App = () => {
   return (
-    <>
+    <div className="">
       <Navbar />
       <Main />
-    </>
+    </div>
   );
 };
