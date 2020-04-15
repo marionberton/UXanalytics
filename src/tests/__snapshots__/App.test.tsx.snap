@@ -6,5 +6,6 @@ exports[`<Root /> renders the component 1`] = `
 >
   <Component />
   <Component />
+  <Component />
 </div>
 `;
