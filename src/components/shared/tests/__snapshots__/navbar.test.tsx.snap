@@ -2,7 +2,7 @@
 
 exports[`<Navbar /> renders the component 1`] = `
 <nav
-  class=" container  mt-16 flex items-center justify-between flex-wrap"
+  class=" container mt-16 flex items-center justify-between flex-wrap"
 >
   <div
     class="flex items-center flex-shrink-0 text-white mr-6"
