@@ -10,7 +10,7 @@ export const Benefits: React.FC = () => {
         <div className="flex justify-between lg:items-center lg:flex-row sm:flex-col">
           <div className="p-2 lg:order-first sm:order-last">
             <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title">
-              Actionable insight💡
+              Actionable insight <span>💡</span>
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl text-darkgrey font-title font-bold">

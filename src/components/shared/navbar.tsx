@@ -4,7 +4,7 @@ import logo from '../../assets/logo.svg';
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className=" container  mt-16 flex items-center justify-between flex-wrap">
+    <nav className=" container mt-16 flex items-center justify-between flex-wrap">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img src={logo} alt="logo" />
       </div>

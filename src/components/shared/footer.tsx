@@ -23,7 +23,9 @@ export const Footer: React.FC = () => {
               <img src={twitter} alt="" />
             </div>
             <div>
-              <a className="text-white pl-4">contact us</a>
+              <a className="text-white pl-4" href="#">
+                contact us
+              </a>
             </div>
           </div>
         </div>
