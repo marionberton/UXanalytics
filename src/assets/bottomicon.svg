@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="158" height="137" viewBox="0 0 158 137">
+    <defs>
+        <path id="prefix__a" d="M44.5 6.5c29.371-14.356 68.47 1.047 84 12 15.53 10.953 27.998 49.495 6.371 76.225-14.417 17.821-44.27 26.686-89.558 26.596C15.676 117.503.776 104.066.613 81.009.368 46.424 15.129 20.856 44.5 6.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 2) rotate(180 73.5 66)">
+            <use fill="#1CB8F8" xlink:href="#prefix__a"/>
+            <ellipse cx="34.371" cy="42.391" stroke="#FFF" stroke-opacity=".51" stroke-width="65" opacity=".49" rx="12.75" ry="12.724"/>
+        </g>
+        <g stroke="#1927D3" stroke-width="3" transform="translate(0 2) translate(29)">
+            <rect width="24" height="102" fill="#9013FE" rx="2"/>
+            <rect width="24" height="66" x="34" y="36" fill="#FF1F9D" rx="2"/>
+            <rect width="24" height="52" x="66" y="50" fill="#FFF" rx="2"/>
+        </g>
+    </g>
+</svg>
