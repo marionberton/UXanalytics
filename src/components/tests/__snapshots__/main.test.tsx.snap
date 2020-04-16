@@ -9,13 +9,13 @@ Array [
       class="container"
     >
       <div
-        class="flex lg:items-center lg:flex-row sm:flex-col"
+        class="flex lg:items-center lg:flex-row flex-col"
       >
         <div
-          class="p-2 w-1/2 lg:order-first sm:order-last"
+          class="lg:w-1/2 lg:order-first order-last text-center lg:text-left"
         >
           <h1
-            class="text-5xl text-darkgrey font-title font-semibold leading-none "
+            class="text-5xl text-darkgrey font-title font-semibold leading-none"
           >
             Stop copying, and
             <br />
@@ -33,14 +33,14 @@ Array [
             your product with your direct competitors.
           </p>
           <button
-            class="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full w-1/3 mt-10"
+            class="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full lg:w-1/3 mt-10"
             type="button"
           >
             Try Demo Now
           </button>
         </div>
         <div
-          class="p-2 w-1/2"
+          class="lg:w-1/2 mb-12"
         >
           <img
             alt=""
@@ -58,7 +58,7 @@ Array [
     >
       <img
         alt=""
-        class="h-auto w-3/4 mx-auto"
+        class="h-auto lg:w-3/4 mx-auto"
         src="demo.jpg"
       />
     </div>
@@ -70,13 +70,13 @@ Array [
       class="container"
     >
       <div
-        class="flex justify-between lg:items-center lg:flex-row sm:flex-col"
+        class="flex sm:justify-between items-center sm:flex-row flex-col"
       >
         <div
-          class="p-2 lg:order-first sm:order-last"
+          class="p-2 order-first "
         >
           <h1
-            class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title"
+            class=" text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title"
           >
             Actionable insight 
             <span>
@@ -84,7 +84,7 @@ Array [
             </span>
           </h1>
           <p
-            class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl text-darkgrey font-title font-bold"
+            class="text-xl md:text-2xl lg:text-3xl xl:text-4xl text-darkgrey font-title font-bold"
           >
             Focus on best practices 
             <br />
@@ -92,10 +92,10 @@ Array [
           </p>
         </div>
         <div
-          class="flex flex-col box-content w-1/2"
+          class="flex flex-col box-content sm:w-1/2"
         >
           <div
-            class="flex flex-row rounded-md bg-white py-5 px-10 mb-5"
+            class="flex flex-row rounded-md bg-white py-5 px-10 mb-5 sm:items-center"
           >
             <div>
               <img
@@ -119,7 +119,7 @@ Array [
             </div>
           </div>
           <div
-            class="flex flex-row rounded-md bg-white py-5 px-10"
+            class="flex flex-row rounded-md bg-white py-5 px-10 sm:items-center"
           >
             <div>
               <img
@@ -153,10 +153,10 @@ Array [
       class="container"
     >
       <div
-        class="flex justify-around content-start lg:items-center lg:flex-row sm:flex-col"
+        class="flex justify-around content-start items-center lg:text-left text-center lg:flex-row flex-col"
       >
         <div
-          class="p-2 "
+          class="mb-12 md:m-0"
         >
           <img
             alt=""
@@ -164,7 +164,7 @@ Array [
           />
         </div>
         <div
-          class="p-2"
+          class=""
         >
           <h1
             class="text-4xl text-darkgrey font-title font-semibold"
