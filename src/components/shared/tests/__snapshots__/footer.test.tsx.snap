@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the component 1`] = `
+<footer
+  class="footer bg-electricblue"
+>
+  <div
+    class="container mt-24"
+  >
+    <div
+      class="flex justify-between lg:items-center lg:flex-row sm:flex-col py-16"
+    >
+      <div
+        class="flex flex-row items-center"
+      >
+        <div>
+          <img
+            alt=""
+            src="logo-white.svg"
+          />
+        </div>
+        <div>
+          <p
+            class="text-white pl-4"
+          >
+            © UX Analytic. All rights reserved.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center"
+      >
+        <div>
+          <img
+            alt=""
+            src="twitter.svg"
+          />
+        </div>
+        <div>
+          <a
+            class="text-white pl-4"
+            href="/contact"
+          >
+            contact us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;
