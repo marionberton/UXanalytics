@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
       </div>
       <div>
         <a
-          href="#"
+          href="/signin"
           className="inline-block  bg-white text-blue-800 font-title font-semibold py-2 px-4 rounded-full"
         >
           Try Demo Now
