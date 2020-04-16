@@ -19,6 +19,10 @@ html {
   background-repeat: no-repeat;
   background-position: center left;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
 
 @tailwind utilities;
+
+
+@tailwind screens;
