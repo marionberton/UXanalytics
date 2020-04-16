@@ -643,6 +643,12 @@ html {
   background-position: top left;
 }
 
+.footer {
+  background-image: url('../assets/vector.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
 
 .sr-only {

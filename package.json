@@ -16,13 +16,11 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts start && npm run watch:css",
-    "build": "react-scripts build && npm run build:css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --runInBand --watchAll=false",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/styles/tailwind.css -o src/styles/output.css",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css -w",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
     "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
     "isready": "npm run format && npm run lint && npm run test:coverage && npm run build"
@@ -43,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@typescript-eslint/eslint-plugin": "2.27.0",

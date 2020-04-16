@@ -6,11 +6,11 @@ export const Cta: React.FC = () => {
   return (
     <section className="mt-24">
       <div className="container">
-        <div className="flex justify-around content-start lg:items-center lg:flex-row sm:flex-col">
-          <div className="p-2 ">
+        <div className="flex justify-around content-start items-center lg:text-left text-center lg:flex-row flex-col">
+          <div className="mb-12 md:m-0">
             <img src={man} alt="" />
           </div>
-          <div className="p-2">
+          <div className="">
             <h1 className="text-4xl text-darkgrey font-title font-semibold">
               Stay on top of <br /> industry trends
             </h1>

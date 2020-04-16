@@ -7,19 +7,19 @@ export const Benefits: React.FC = () => {
   return (
     <section className="mt-24 py-20 bg-lightmauve benefit">
       <div className="container">
-        <div className="flex justify-between lg:items-center lg:flex-row sm:flex-col">
-          <div className="p-2 lg:order-first sm:order-last">
-            <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title">
-              Actionable insight <span>💡</span>
+        <div className="flex sm:justify-between items-center sm:flex-row flex-col">
+          <div className="p-2 order-first ">
+            <h1 className=" text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title">
+              Actionable insight <span role="img">💡</span>
             </h1>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl text-darkgrey font-title font-bold">
+            <p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl text-darkgrey font-title font-bold">
               Focus on best practices <br />
               for your design
             </p>
           </div>
-          <div className="flex flex-col box-content w-1/2">
-            <div className="flex flex-row rounded-md bg-white py-5 px-10 mb-5">
+          <div className="flex flex-col box-content sm:w-1/2">
+            <div className="flex flex-row rounded-md bg-white py-5 px-10 mb-5 sm:items-center">
               <div>
                 <img src={topicon} alt="" />
               </div>
@@ -33,7 +33,7 @@ export const Benefits: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row rounded-md bg-white py-5 px-10">
+            <div className="flex flex-row rounded-md bg-white py-5 px-10 sm:items-center">
               <div>
                 <img src={bottomicon} alt="" />
               </div>

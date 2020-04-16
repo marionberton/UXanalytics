@@ -6,9 +6,9 @@ export const Home: React.FC = () => {
   return (
     <section className="mt-24">
       <div className="container">
-        <div className="flex lg:items-center lg:flex-row sm:flex-col">
-          <div className="p-2 w-1/2 lg:order-first sm:order-last">
-            <h1 className="text-5xl text-darkgrey font-title font-semibold leading-none ">
+        <div className="flex lg:items-center lg:flex-row flex-col">
+          <div className="lg:w-1/2 lg:order-first order-last text-center lg:text-left">
+            <h1 className="text-5xl text-darkgrey font-title font-semibold leading-none">
               Stop copying, and
               <br /> start doing competitor <br /> UX analysis
             </h1>
@@ -20,13 +20,13 @@ export const Home: React.FC = () => {
               your product with your direct competitors.
             </p>
             <button
-              className="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full w-1/3 mt-10"
+              className="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full lg:w-1/3 mt-10"
               type="button"
             >
               Try Demo Now
             </button>
           </div>
-          <div className="p-2 w-1/2">
+          <div className="lg:w-1/2 mb-12">
             <img src={home} alt="" />
           </div>
         </div>
