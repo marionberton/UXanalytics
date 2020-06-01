@@ -8,10 +8,10 @@ exports[`<Footer /> renders the component 1`] = `
     class="container mt-24"
   >
     <div
-      class="flex justify-between lg:items-center lg:flex-row sm:flex-col py-16"
+      class="flex justify-between lg:items-center lg:flex-row flex-col py-8"
     >
       <div
-        class="flex flex-row items-center"
+        class="flex flex-row items-center my-2"
       >
         <div>
           <img
@@ -21,29 +21,39 @@ exports[`<Footer /> renders the component 1`] = `
         </div>
         <div>
           <p
-            class="text-white pl-4"
+            class="text-white pl-4 text-sm md:text-lg"
           >
             © UX Analytic. All rights reserved.
           </p>
         </div>
       </div>
       <div
-        class="flex flex-row items-center"
+        class="flex flex-row items-center align-middle my-2"
       >
-        <div>
-          <img
-            alt=""
-            src="twitter.svg"
-          />
-        </div>
-        <div>
+        <div
+          class="inline-block pr-4 py-2 mr-2 "
+        >
+          <span
+            role="img"
+          >
+            🤓
+          </span>
           <a
-            class="text-white pl-4"
+            class="text-white pl-4 text-base md:text-lg"
             href="/contact"
           >
             contact us
           </a>
         </div>
+        <div
+          class="inline-block px-4 py-2 m-2"
+        />
+        <div
+          class="inline-block px-4 py-2 m-2"
+        />
+        <div
+          class="inline-block px-4 py-2 m-2"
+        />
       </div>
     </div>
   </div>

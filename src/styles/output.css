@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -631,8 +633,8 @@ video {
   }
 }
 
-html {
-  background-image: url('../assets/shape.svg');
+body {
+  background-image: url('../assets/wave.svg');
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -649,7 +651,26 @@ html {
   background-position: center left;
 }
 
+@media (min-width: 380px) and (max-width: 639px) {
+  body {
+    background-image: url('../assets/wave.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    background-image: url('../assets/shape.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+
+/* purgecss end ignore */
 
 .sr-only {
   position: absolute;
@@ -11963,6 +11984,10 @@ html {
   --transform-skew-y: 0;
   --transform-scale-x: 1;
   --transform-scale-y: 1;
+  -webkit-transform: translateX(var(--transform-translate-x))
+    translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+    skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+    scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   transform: translateX(var(--transform-translate-x))
     translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
     skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
@@ -11970,42 +11995,52 @@ html {
 }
 
 .transform-none {
+  -webkit-transform: none;
   transform: none;
 }
 
 .origin-center {
+  -webkit-transform-origin: center;
   transform-origin: center;
 }
 
 .origin-top {
+  -webkit-transform-origin: top;
   transform-origin: top;
 }
 
 .origin-top-right {
+  -webkit-transform-origin: top right;
   transform-origin: top right;
 }
 
 .origin-right {
+  -webkit-transform-origin: right;
   transform-origin: right;
 }
 
 .origin-bottom-right {
+  -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
 }
 
 .origin-bottom {
+  -webkit-transform-origin: bottom;
   transform-origin: bottom;
 }
 
 .origin-bottom-left {
+  -webkit-transform-origin: bottom left;
   transform-origin: bottom left;
 }
 
 .origin-left {
+  -webkit-transform-origin: left;
   transform-origin: left;
 }
 
 .origin-top-left {
+  -webkit-transform-origin: top left;
   transform-origin: top left;
 }
 
@@ -13645,7 +13680,11 @@ html {
 
 .transition {
   transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, -webkit-transform;
+  transition-property: background-color, border-color, color, fill, stroke,
     opacity, box-shadow, transform;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform, -webkit-transform;
 }
 
 .transition-colors {
@@ -13661,7 +13700,9 @@ html {
 }
 
 .transition-transform {
+  transition-property: -webkit-transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .ease-linear {
@@ -25026,6 +25067,10 @@ html {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
+    -webkit-transform: translateX(var(--transform-translate-x))
+      translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+      skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+      scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
     transform: translateX(var(--transform-translate-x))
       translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
       skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
@@ -25033,42 +25078,52 @@ html {
   }
 
   .sm\:transform-none {
+    -webkit-transform: none;
     transform: none;
   }
 
   .sm\:origin-center {
+    -webkit-transform-origin: center;
     transform-origin: center;
   }
 
   .sm\:origin-top {
+    -webkit-transform-origin: top;
     transform-origin: top;
   }
 
   .sm\:origin-top-right {
+    -webkit-transform-origin: top right;
     transform-origin: top right;
   }
 
   .sm\:origin-right {
+    -webkit-transform-origin: right;
     transform-origin: right;
   }
 
   .sm\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
   }
 
   .sm\:origin-bottom {
+    -webkit-transform-origin: bottom;
     transform-origin: bottom;
   }
 
   .sm\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
   }
 
   .sm\:origin-left {
+    -webkit-transform-origin: left;
     transform-origin: left;
   }
 
   .sm\:origin-top-left {
+    -webkit-transform-origin: top left;
     transform-origin: top left;
   }
 
@@ -26708,7 +26763,11 @@ html {
 
   .sm\:transition {
     transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, -webkit-transform;
+    transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform, -webkit-transform;
   }
 
   .sm\:transition-colors {
@@ -26724,7 +26783,9 @@ html {
   }
 
   .sm\:transition-transform {
+    transition-property: -webkit-transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
   }
 
   .sm\:ease-linear {
@@ -38090,6 +38151,10 @@ html {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
+    -webkit-transform: translateX(var(--transform-translate-x))
+      translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+      skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+      scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
     transform: translateX(var(--transform-translate-x))
       translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
       skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
@@ -38097,42 +38162,52 @@ html {
   }
 
   .md\:transform-none {
+    -webkit-transform: none;
     transform: none;
   }
 
   .md\:origin-center {
+    -webkit-transform-origin: center;
     transform-origin: center;
   }
 
   .md\:origin-top {
+    -webkit-transform-origin: top;
     transform-origin: top;
   }
 
   .md\:origin-top-right {
+    -webkit-transform-origin: top right;
     transform-origin: top right;
   }
 
   .md\:origin-right {
+    -webkit-transform-origin: right;
     transform-origin: right;
   }
 
   .md\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
   }
 
   .md\:origin-bottom {
+    -webkit-transform-origin: bottom;
     transform-origin: bottom;
   }
 
   .md\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
   }
 
   .md\:origin-left {
+    -webkit-transform-origin: left;
     transform-origin: left;
   }
 
   .md\:origin-top-left {
+    -webkit-transform-origin: top left;
     transform-origin: top left;
   }
 
@@ -39772,7 +39847,11 @@ html {
 
   .md\:transition {
     transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, -webkit-transform;
+    transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform, -webkit-transform;
   }
 
   .md\:transition-colors {
@@ -39788,7 +39867,9 @@ html {
   }
 
   .md\:transition-transform {
+    transition-property: -webkit-transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
   }
 
   .md\:ease-linear {
@@ -51154,6 +51235,10 @@ html {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
+    -webkit-transform: translateX(var(--transform-translate-x))
+      translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+      skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+      scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
     transform: translateX(var(--transform-translate-x))
       translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
       skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
@@ -51161,42 +51246,52 @@ html {
   }
 
   .lg\:transform-none {
+    -webkit-transform: none;
     transform: none;
   }
 
   .lg\:origin-center {
+    -webkit-transform-origin: center;
     transform-origin: center;
   }
 
   .lg\:origin-top {
+    -webkit-transform-origin: top;
     transform-origin: top;
   }
 
   .lg\:origin-top-right {
+    -webkit-transform-origin: top right;
     transform-origin: top right;
   }
 
   .lg\:origin-right {
+    -webkit-transform-origin: right;
     transform-origin: right;
   }
 
   .lg\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
   }
 
   .lg\:origin-bottom {
+    -webkit-transform-origin: bottom;
     transform-origin: bottom;
   }
 
   .lg\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
   }
 
   .lg\:origin-left {
+    -webkit-transform-origin: left;
     transform-origin: left;
   }
 
   .lg\:origin-top-left {
+    -webkit-transform-origin: top left;
     transform-origin: top left;
   }
 
@@ -52836,7 +52931,11 @@ html {
 
   .lg\:transition {
     transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, -webkit-transform;
+    transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform, -webkit-transform;
   }
 
   .lg\:transition-colors {
@@ -52852,7 +52951,9 @@ html {
   }
 
   .lg\:transition-transform {
+    transition-property: -webkit-transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
   }
 
   .lg\:ease-linear {
@@ -64218,6 +64319,10 @@ html {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
+    -webkit-transform: translateX(var(--transform-translate-x))
+      translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+      skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+      scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
     transform: translateX(var(--transform-translate-x))
       translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
       skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
@@ -64225,42 +64330,52 @@ html {
   }
 
   .xl\:transform-none {
+    -webkit-transform: none;
     transform: none;
   }
 
   .xl\:origin-center {
+    -webkit-transform-origin: center;
     transform-origin: center;
   }
 
   .xl\:origin-top {
+    -webkit-transform-origin: top;
     transform-origin: top;
   }
 
   .xl\:origin-top-right {
+    -webkit-transform-origin: top right;
     transform-origin: top right;
   }
 
   .xl\:origin-right {
+    -webkit-transform-origin: right;
     transform-origin: right;
   }
 
   .xl\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
   }
 
   .xl\:origin-bottom {
+    -webkit-transform-origin: bottom;
     transform-origin: bottom;
   }
 
   .xl\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
   }
 
   .xl\:origin-left {
+    -webkit-transform-origin: left;
     transform-origin: left;
   }
 
   .xl\:origin-top-left {
+    -webkit-transform-origin: top left;
     transform-origin: top left;
   }
 
@@ -65900,7 +66015,11 @@ html {
 
   .xl\:transition {
     transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, -webkit-transform;
+    transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform, -webkit-transform;
   }
 
   .xl\:transition-colors {
@@ -65916,7 +66035,9 @@ html {
   }
 
   .xl\:transition-transform {
+    transition-property: -webkit-transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
   }
 
   .xl\:ease-linear {

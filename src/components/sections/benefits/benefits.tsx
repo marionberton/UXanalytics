@@ -19,17 +19,16 @@ export const Benefits: React.FC = () => {
             </p>
           </div>
           <div className="flex flex-col box-content sm:w-1/2">
-            <div className="flex flex-row rounded-md bg-white py-5 px-10 mb-5 sm:items-center">
+            <div className="flex flex-row rounded-md bg-white py-5 pnpm x-10 mb-5 sm:items-center">
               <div>
                 <img src={topicon} alt="" />
               </div>
               <div className="ml-5">
                 <h1 className="text-darkgrey text-base sm:text-lg md:text-xl font-bold">
-                  Detailed Insights
+                  Insights
                 </h1>
                 <p className="text-parablack">
-                  With easy to read table and visualizations, uncover the most
-                  effective UX designs.
+                  Find out which design patterns work best in your industry.
                 </p>
               </div>
             </div>
@@ -42,8 +41,8 @@ export const Benefits: React.FC = () => {
                   Upskilling
                 </h1>
                 <p className="text-parablack">
-                  Identify opportunities that can help boost your user
-                  experience.
+                  Add quantitative, metrics to your design and boost the
+                  experience for your users.
                 </p>
               </div>
             </div>

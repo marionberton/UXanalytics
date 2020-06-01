@@ -12,7 +12,7 @@ Array [
         class="flex lg:items-center lg:flex-row flex-col"
       >
         <div
-          class="lg:w-1/2 lg:order-first order-last text-center lg:text-left"
+          class="lg:w-1/2 lg:order-first order-last text-center lg:text-left mt-10 md:m-0"
         >
           <h1
             class="text-5xl text-darkgrey font-title font-semibold leading-none"
@@ -26,11 +26,11 @@ Array [
           <p
             class="mt-6 text-darkgrey"
           >
-            UX Analytic is a platform, build to help designers creating a
+            Create excellent user experience, by analyzing
             <br />
-            better web user experience, by analyzing design metrics of
+            design metrics of your product with your direct
             <br />
-            your product with your direct competitors.
+            competitors websites.
           </p>
           <button
             class="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full lg:w-1/3 mt-10"
@@ -56,11 +56,31 @@ Array [
     <div
       class="container"
     >
-      <img
-        alt=""
-        class="h-auto lg:w-3/4 mx-auto"
-        src="demo.jpg"
-      />
+      <div
+        class="flex justify-center content-center items-center text-center flex-col"
+      >
+        <div>
+          <img
+            alt=""
+            class="h-auto lg:w-3/4 mx-auto"
+            src="demo.jpg"
+          />
+        </div>
+        <div>
+          <h1
+            class="text-4xl text-darkgrey font-title font-semibold leading-none"
+          >
+            Who is UX Analytic for?
+          </h1>
+          <p
+            class="mt-6 text-darkgrey text-xl"
+          >
+            Our analysis service empower designer to make better design decisions. 
+            <br />
+             We analized over 250 websites and app for you.
+          </p>
+        </div>
+      </div>
     </div>
   </section>,
   <section
@@ -97,7 +117,7 @@ Array [
           class="flex flex-col box-content sm:w-1/2"
         >
           <div
-            class="flex flex-row rounded-md bg-white py-5 px-10 mb-5 sm:items-center"
+            class="flex flex-row rounded-md bg-white py-5 pnpm x-10 mb-5 sm:items-center"
           >
             <div>
               <img
@@ -111,12 +131,12 @@ Array [
               <h1
                 class="text-darkgrey text-base sm:text-lg md:text-xl font-bold"
               >
-                Detailed Insights
+                Insights
               </h1>
               <p
                 class="text-parablack"
               >
-                With easy to read table and visualizations, uncover the most effective UX designs.
+                Find out which design patterns work best in your industry.
               </p>
             </div>
           </div>
@@ -140,7 +160,7 @@ Array [
               <p
                 class="text-parablack"
               >
-                Identify opportunities that can help boost your user experience.
+                Add quantitative, metrics to your design and boost the experience for your users.
               </p>
             </div>
           </div>
@@ -158,29 +178,23 @@ Array [
         class="flex justify-around content-start items-center lg:text-left text-center lg:flex-row flex-col"
       >
         <div
-          class="mb-12 md:m-0"
+          class="mb-12 lg:m-0"
         >
           <img
             alt=""
             src="mansearching.svg"
           />
         </div>
-        <div
-          class=""
-        >
+        <div>
           <h1
             class="text-4xl text-darkgrey font-title font-semibold"
           >
-            Stay on top of 
-            <br />
-             industry trends
+            See it in action
           </h1>
           <p
             class="text-4xl text-mauve font-title font-semibold"
           >
-            Try UX Analytic 
-            <br />
-             right now.
+            Try UX Analytic now, and get early access for the beta release.
           </p>
           <button
             class="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full mt-10"

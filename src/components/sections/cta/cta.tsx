@@ -7,16 +7,17 @@ export const Cta: React.FC = () => {
     <section className="mt-24">
       <div className="container">
         <div className="flex justify-around content-start items-center lg:text-left text-center lg:flex-row flex-col">
-          <div className="mb-12 md:m-0">
+          <div className="mb-12 lg:m-0">
             <img src={man} alt="" />
           </div>
-          <div className="">
+          <div>
             <h1 className="text-4xl text-darkgrey font-title font-semibold">
-              Stay on top of <br /> industry trends
+              See it in action
             </h1>
             <p className="text-4xl text-mauve font-title font-semibold">
-              Try UX Analytic <br /> right now.
+              Try UX Analytic now, and get early access for the beta release.
             </p>
+
             <button
               className="bg-btnred text-white font-title font-semibold py-2 px-4 rounded-full mt-10"
               type="button"

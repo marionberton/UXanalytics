@@ -3,8 +3,8 @@
 
 @tailwind components;
 
-html {
-  background-image: url('../assets/shape.svg');
+body {
+  background-image: url('../assets/wave.svg');
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -21,9 +21,24 @@ html {
   background-position: center left;
 }
 
+@media (min-width: 380px) and (max-width: 639px) {
+  body {
+    background-image: url('../assets/wave.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    background-image: url('../assets/shape.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
 /* purgecss end ignore */
 
 @tailwind utilities;
-
-@tailwind screens;
