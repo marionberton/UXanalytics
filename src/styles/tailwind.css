@@ -3,7 +3,7 @@
 
 @tailwind components;
 
-body {
+.backgroundn {
   background-image: url('../assets/wave.svg');
   background-repeat: no-repeat;
   background-position: top right;
@@ -21,21 +21,39 @@ body {
   background-position: center left;
 }
 
+.backgroundShape {
+  background-image: url('../assets/shapebackground.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
 @media (min-width: 380px) and (max-width: 639px) {
-  body {
+  .backgroundn {
     background-image: url('../assets/wave.svg');
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 100%;
   }
+ 
 }
 
 @media (min-width: 640px) {
-  body {
+  .backgroundn {
     background-image: url('../assets/shape.svg');
     background-repeat: no-repeat;
     background-position: top right;
   }
+ 
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+   .backgroundShape {
+  background-image: url('../assets/shapebackground.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+}
+ 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');

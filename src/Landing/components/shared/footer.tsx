@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import logowhite from '../../assets/logo-white.svg';
+import logowhite from '../../../assets/logo-white.svg';
 
 export const Footer: React.FC = () => {
   return (

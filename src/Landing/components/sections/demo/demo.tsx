@@ -1,6 +1,6 @@
 import React from 'react';
 
-import demopic from '../../../assets/demo.jpg';
+import demopic from '../../../../assets/demo.jpg';
 
 export const Demo: React.FC = () => {
   return (
