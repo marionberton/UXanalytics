@@ -633,7 +633,7 @@ video {
   }
 }
 
-body {
+.backgroundn {
   background-image: url('../assets/wave.svg');
   background-repeat: no-repeat;
   background-position: top right;
@@ -651,8 +651,14 @@ body {
   background-position: center left;
 }
 
+.background {
+  //background-image: url('../assets/shapebackground.svg');
+  //background-repeat: no-repeat;
+  background-image: none !important;
+}
+
 @media (min-width: 380px) and (max-width: 639px) {
-  body {
+  .backgroundn {
     background-image: url('../assets/wave.svg');
     background-repeat: no-repeat;
     background-position: top right;
@@ -661,7 +667,7 @@ body {
 }
 
 @media (min-width: 640px) {
-  body {
+  .backgroundn {
     background-image: url('../assets/shape.svg');
     background-repeat: no-repeat;
     background-position: top right;

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1130" height="1081" viewBox="0 0 1130 1081">
+    <defs>
+        <circle id="prefix__b" cx="149.5" cy="149.5" r="149.5"/>
+        <circle id="prefix__c" cx="149.5" cy="149.5" r="149.5"/>
+        <path id="prefix__a" d="M44.5 6.5c29.371-14.356 68.47 1.047 84 12 15.53 10.953 27.998 49.495 6.371 76.225-14.417 17.821-44.27 26.686-89.558 26.596C15.676 117.503.776 104.066.613 81.009.368 46.424 15.129 20.856 44.5 6.5z"/>
+        <path id="prefix__e" d="M183 17.5C337.838-8.215 491.706-5.36 542.408 30.398c50.702 35.76-65.676 100.352-102.092 174.382s-191.093 109.97-292.382 86.824C46.646 268.46-7.287 232.6 2 160 11.287 87.401 28.162 43.215 183 17.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="rotate(180 73.5 330.5)">
+            <use fill="#9013FE" xlink:href="#prefix__a"/>
+            <ellipse cx="44.371" cy="42.391" stroke="#FFF" stroke-opacity=".51" stroke-width="65" opacity=".49" rx="12.75" ry="12.724"/>
+        </g>
+        <path fill="#E9847E" d="M54 917.43c29.81-2.825 62.31-16.825 97.5-42 52.784-37.764 65.5-61 90.5-92.5 42.942-54.107 73.294-48.365 59.5-4-13.794 44.364-27.038 70.843-96.5 123-46.308 34.77-96.641 55.27-151 61.5v-46z"/>
+        <g transform="translate(554 782)">
+            <use fill="#6FFFAB" xlink:href="#prefix__b"/>
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <use fill="#6FFFAB" xlink:href="#prefix__c"/>
+            <circle cx="133.619" cy="246.429" r="120.476" stroke="#FFF" stroke-opacity=".51" stroke-width="65" mask="url(#prefix__d)"/>
+        </g>
+        <g transform="translate(575)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <use fill="#4345CD" xlink:href="#prefix__e"/>
+            <ellipse cx="251.194" cy="33.992" stroke="#FFF" stroke-opacity=".51" stroke-width="65" mask="url(#prefix__f)" rx="120.211" ry="119.962"/>
+        </g>
+    </g>
+</svg>

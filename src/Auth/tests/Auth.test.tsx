@@ -1,11 +1,11 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import { Navbar } from '../navbar';
+import { Auth } from '../Auth';
 
-describe('<Navbar />', () => {
+describe('<Auth/>', () => {
   it('renders the component', () => {
-    const component = mount(<Navbar />);
+    const component = mount(<Auth />);
 
     expect(component.render()).toMatchSnapshot();
   });

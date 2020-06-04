@@ -1,6 +1,6 @@
 import React from 'react';
 
-import man from '../../../assets/mansearching.svg';
+import man from '../../../../assets/mansearching.svg';
 
 export const Cta: React.FC = () => {
   return (

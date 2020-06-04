@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import logowhite from '../../assets/logo-white.svg';
+import logowhite from '../../../assets/logo-white.svg';
 
 export const Footer: React.FC = () => {
   return (
@@ -20,7 +20,9 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex flex-row items-center align-middle my-2">
             <div className="inline-block pr-4 py-2 mr-2 ">
-              <span role="img">🤓</span>
+              <span role="img" aria-label="smiley with glasses">
+                🤓
+              </span>
               <a
                 className="text-white pl-4 text-base md:text-lg"
                 href="/contact"

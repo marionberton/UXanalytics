@@ -1,7 +1,7 @@
 import React from 'react';
 
-import topicon from '../../../assets/topicon.svg';
-import bottomicon from '../../../assets/bottomicon.svg';
+import topicon from '../../../../assets/topicon.svg';
+import bottomicon from '../../../../assets/bottomicon.svg';
 
 export const Benefits: React.FC = () => {
   return (
@@ -9,8 +9,11 @@ export const Benefits: React.FC = () => {
       <div className="container">
         <div className="flex sm:justify-between items-center sm:flex-row flex-col">
           <div className="p-2 order-first ">
-            <h1 className=" text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title">
-              Actionable insight <span role="img">💡</span>
+            <h1 className="text-lg md:text-xl lg:text-2xl xl:text-3xl text-darkgrey font-title">
+              Actionable insight{' '}
+              <span role="img" aria-label="lightbulb">
+                💡
+              </span>
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl text-darkgrey font-title font-bold">

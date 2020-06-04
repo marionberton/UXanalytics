@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Root /> renders the component 1`] = `
-<div>
-  <Component />
-  <Component />
-  <Component />
-</div>
+<Fragment>
+  <BrowserRouter>
+    <Switch>
+      <Route
+        exact={true}
+        path="/"
+      >
+        <div
+          className="backgroundn"
+        >
+          <Component />
+          <Component />
+          <Component />
+        </div>
+      </Route>
+      <Route
+        exact={true}
+        path="/signin"
+      >
+        <Component />
+      </Route>
+    </Switch>
+  </BrowserRouter>
+</Fragment>
 `;
