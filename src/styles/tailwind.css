@@ -35,7 +35,6 @@
     background-position: top right;
     background-size: 100%;
   }
- 
 }
 
 @media (min-width: 640px) {
@@ -44,16 +43,14 @@
     background-repeat: no-repeat;
     background-position: top right;
   }
- 
 }
 @media (min-width: 640px) and (max-width: 1023px) {
-   .backgroundShape {
-  background-image: url('../assets/shapebackground.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 75%;
-}
- 
+  .backgroundShape {
+    background-image: url('../assets/shapebackground.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');

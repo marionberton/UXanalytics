@@ -34,6 +34,7 @@ exports[`<Footer /> renders the component 1`] = `
           class="inline-block pr-4 py-2 mr-2 "
         >
           <span
+            aria-label="smiley with glasses"
             role="img"
           >
             🤓
